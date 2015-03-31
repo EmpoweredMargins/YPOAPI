@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="YPOService.asmx.cs" Class="YPOWebService.YPOService" %>

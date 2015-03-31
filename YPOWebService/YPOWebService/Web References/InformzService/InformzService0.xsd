@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://partner.informz.net/aapi/2009/08/" elementFormDefault="qualified" targetNamespace="http://partner.informz.net/aapi/2009/08/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PostInformzMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="x" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PostInformzMessageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PostInformzMessageResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

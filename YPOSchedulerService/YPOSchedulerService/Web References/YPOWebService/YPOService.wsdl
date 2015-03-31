@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="synchronizationProcessFromYMendToYPO">
+        <s:complexType />
+      </s:element>
+      <s:element name="synchronizationProcessFromYMendToYPOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="synchronizationProcessFromYMendToYPOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="synchronizationProcessFromYMendToYPOSoapIn">
+    <wsdl:part name="parameters" element="tns:synchronizationProcessFromYMendToYPO" />
+  </wsdl:message>
+  <wsdl:message name="synchronizationProcessFromYMendToYPOSoapOut">
+    <wsdl:part name="parameters" element="tns:synchronizationProcessFromYMendToYPOResponse" />
+  </wsdl:message>
+  <wsdl:portType name="YPOServiceSoap">
+    <wsdl:operation name="synchronizationProcessFromYMendToYPO">
+      <wsdl:input message="tns:synchronizationProcessFromYMendToYPOSoapIn" />
+      <wsdl:output message="tns:synchronizationProcessFromYMendToYPOSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="YPOServiceSoap" type="tns:YPOServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="synchronizationProcessFromYMendToYPO">
+      <soap:operation soapAction="http://tempuri.org/synchronizationProcessFromYMendToYPO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="YPOServiceSoap12" type="tns:YPOServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="synchronizationProcessFromYMendToYPO">
+      <soap12:operation soapAction="http://tempuri.org/synchronizationProcessFromYMendToYPO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="YPOService">
+    <wsdl:port name="YPOServiceSoap" binding="tns:YPOServiceSoap">
+      <soap:address location="http://192.168.1.143:81/YPOService/YPOService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="YPOServiceSoap12" binding="tns:YPOServiceSoap12">
+      <soap12:address location="http://192.168.1.143:81/YPOService/YPOService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

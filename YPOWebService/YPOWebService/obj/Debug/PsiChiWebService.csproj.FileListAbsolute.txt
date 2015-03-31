@@ -1,0 +1,5 @@
+C:\projects\PSICHI Project\PsiChiWebService\PsiChiWebService\bin\PsiChiWebService.dll
+C:\projects\PSICHI Project\PsiChiWebService\PsiChiWebService\bin\PsiChiWebService.pdb
+C:\projects\PSICHI Project\PsiChiWebService\PsiChiWebService\obj\Debug\PsiChiWebService.dll
+C:\projects\PSICHI Project\PsiChiWebService\PsiChiWebService\obj\Debug\PsiChiWebService.pdb
+C:\projects\PSICHI Project\PsiChiWebService\PsiChiWebService\obj\Debug\PsiChiWebService.csprojResolveAssemblyReference.cache

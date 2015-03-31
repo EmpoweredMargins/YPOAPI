@@ -1,0 +1,24 @@
+
+
+11/7/2013 3:03:50 PM ==> Unable to connect to the remote server
+11/8/2013 10:02:56 AM ==> Unable to connect to the remote server
+11/8/2013 12:03:31 PM ==> The underlying connection was closed: An unexpected error occurred on a receive.
+11/8/2013 1:02:54 PM ==> Unable to connect to the remote server
+11/8/2013 3:32:53 PM ==> Unable to connect to the remote server
+11/8/2013 4:02:45 PM ==> The remote name could not be resolved: 'api.yourmembership.com'
+11/11/2013 1:22:33 PM ==> Unable to connect to the remote server
+11/12/2013 11:51:07 AM ==> Unable to connect to the remote server
+11/12/2013 4:56:00 PM ==> Unable to connect to the remote server
+11/12/2013 8:01:58 PM ==> The remote name could not be resolved: 'api.yourmembership.com'
+11/13/2013 11:28:08 AM ==> Unable to connect to the remote server
+11/13/2013 12:28:08 PM ==> Unable to connect to the remote server
+11/13/2013 12:59:10 PM ==> The underlying connection was closed: An unexpected error occurred on a receive.
+11/13/2013 2:27:59 PM ==> The remote name could not be resolved: 'partnertest.informz.net'
+11/14/2013 9:21:07 AM ==> The remote name could not be resolved: 'api.yourmembership.com'
+11/14/2013 10:33:08 AM ==> Object reference not set to an instance of an object.
+2/19/2014 3:01:27 AM ==> The remote server returned an error: (503) Server Unavailable.
+2/20/2014 1:06:59 AM ==> '>' is an unexpected token. The expected token is '"' or '''. Line 3, position 62.
+2/20/2014 1:03:14 PM ==> The operation has timed out
+2/20/2014 1:36:14 PM ==> The operation has timed out
+2/20/2014 5:03:15 PM ==> The operation has timed out
+2/21/2014 4:33:20 PM ==> The operation has timed out

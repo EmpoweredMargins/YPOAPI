@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\ramc\Desktop\YPOWebService" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/YMSDK.dll" publishTime="10/23/2013 12:51:13" />
+    <file relUrl="Web.config" publishTime="11/15/2013 10:03:33" />
+    <file relUrl="bin/YPOWebService.pdb" publishTime="11/14/2013 16:59:45" />
+    <file relUrl="bin/YPOWebService.dll" publishTime="11/14/2013 16:59:45" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="05/27/2012 16:49:48" />
+    <file relUrl="YPOService.asmx" publishTime="10/23/2013 13:31:12" />
+  </publishProfile>
+</publishData>

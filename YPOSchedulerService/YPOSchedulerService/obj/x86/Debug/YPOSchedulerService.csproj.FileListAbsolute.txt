@@ -1,0 +1,8 @@
+C:\projects\YPOSchedulerService\YPOSchedulerService\bin\Debug\YPOSchedulerService.exe
+C:\projects\YPOSchedulerService\YPOSchedulerService\bin\Debug\YPOSchedulerService.pdb
+C:\projects\YPOSchedulerService\YPOSchedulerService\obj\x86\Debug\YPOSchedulerService.YPOScheduler.resources
+C:\projects\YPOSchedulerService\YPOSchedulerService\obj\x86\Debug\YPOSchedulerService.csproj.GenerateResource.Cache
+C:\projects\YPOSchedulerService\YPOSchedulerService\obj\x86\Debug\YPOSchedulerService.exe
+C:\projects\YPOSchedulerService\YPOSchedulerService\obj\x86\Debug\YPOSchedulerService.pdb
+C:\projects\YPOSchedulerService\YPOSchedulerService\bin\Debug\YPOSchedulerService.exe.config
+C:\projects\YPOSchedulerService\YPOSchedulerService\obj\x86\Debug\YPOSchedulerService.ProjectInstaller.resources
